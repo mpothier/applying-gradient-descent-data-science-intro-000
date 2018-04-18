@@ -13,8 +13,6 @@ When descending along our cost curve in two dimensions, we used the slope of the
 
 But really it's an analogous approach - much like how we use the derivative of a function $f(x)$ to calculate the slope at a given value of $x$ on the graph, and thus discover our next step.  Here, we calculated the partial derivative with respect to both variables, the slope and y-intercept, to calculate the amount to move in either direction that best steers us towards our minimum RSS.   
 
-![](./maps-pointer.png)
-
 ### Reviewing our gradient descent formulas
 
 Luckily for us, we already did the hard work of deriving these formulas.  Now we get to see the fruits of our labor.  The following formulas tell us how to update regression variables of $m$ and $b$ to approach a "best fit" line.   
